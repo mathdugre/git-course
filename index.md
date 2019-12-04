@@ -12,8 +12,8 @@ root: .
 > Alternatively, this course can be followed on Windows using
 > Git Bash.
 > All of the commands shown will work on Windows using Git Bash,
-> with the exception of the `nano` command.
-> nano is a common text editor on Linux:
+> with the exception of the `vim` command.
+> vim is a common text editor on Linux:
 > Windows users should use the `notepad` command instead, and set
 > notepad as the core editor when configuring Git.
 >
@@ -24,7 +24,7 @@ if you do not already have one.
 
 ## Resources
 
-You can check out the slideshow for this workshop [here](https://slides.com/emdupre/git-course).
+You can check out the slideshow for this workshop [here](https://mathdugre.me/git-course/slideshow/slides.html#/title-slide).
 
 
 There are lots of other great resources out there !

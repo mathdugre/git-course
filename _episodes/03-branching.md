@@ -1,7 +1,7 @@
 ---
 title: "Branching"
 teaching: 10
-exercises:
+exercises: 0
 questions:
 - "What is a branch?"
 - "How can I merge changes from another branch?"
@@ -88,7 +88,7 @@ $ git branch			# Double check which branch we are working on
 The * indicates which branch we're currently in. Now let's make the changes to the paper.
 
 ~~~
-$ nano journal.md		# Change title and add co-author
+$ vim journal.md		# Change title and add co-author
 $ git add journal.md
 $ git commit			# "Modify title and add John as co-author"
 ~~~

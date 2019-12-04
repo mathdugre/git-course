@@ -1,7 +1,7 @@
 ---
 title: "Looking at history and differences"
 teaching: 10
-exercises:
+exercises: 0
 questions:
 - "How does Git store information?"
 objectives:
@@ -21,7 +21,7 @@ Correct it, save the file but do not commit it yet.
 We can review the changes that we made using:
 
 ~~~
-$ nano journal.md		# Add second reference to introduction
+$ vim journal.md		# Add second reference to introduction
 $ git diff journal.md		# View changes to file
 ~~~
 {: .language-bash}

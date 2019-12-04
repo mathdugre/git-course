@@ -1,7 +1,7 @@
 ---
 title: "Getting started with GitHub"
 teaching: 15
-exercises:
+exercises: 0
 questions:
 - "What is a remote repository?"
 - "How can I use GitHub to work from multiple locations?"
@@ -196,7 +196,7 @@ make some changes to our files and commit these.
 
 ```
 $ git checkout master				# We'll continue working on the master branch
-$ nano journal.md				# Add results section
+$ vim journal.md				# Add results section
 $ git add journal.md				# Stage changes
 $ git commit
 ```

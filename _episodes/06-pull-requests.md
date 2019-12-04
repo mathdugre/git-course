@@ -1,7 +1,7 @@
 ---
 title: "Pull Requests"
 teaching: 10
-exercises:
+exercises: 0
 questions:
 - "How can I contribute to a repository to which I don't have write access?"
 objectives:

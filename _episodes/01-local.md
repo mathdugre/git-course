@@ -1,7 +1,7 @@
 ---
 title: "Tracking changes with a local repository"
 teaching: 25
-exercises:
+exercises: 0
 questions:
 - "How do I get started with Git?"
 objectives:
@@ -58,10 +58,10 @@ tell Git which editor we want to be the default one (i.e. Git will always bring
 it up whenever it wants us to provide some information).
 
 You can choose any editor available on your system. For the purpose of this
-session we'll use *nano*:
+session we'll use *vim*:
 
 ~~~
-$ git config --global core.editor nano				# Linux users only.
+$ git config --global core.editor vim				# Linux users only.
 								# Windows users should use notepad: see below.
 								# Mac users should use TextEdit: see below.
 ~~~
@@ -69,7 +69,7 @@ $ git config --global core.editor nano				# Linux users only.
 
 To set up alternative editors, follow the same notation e.g.
 `git config --global core.editor notepad`, `git config --global core.editor vi`,
-`git config --global core.editor xemacs`.
+`git config --global core.editor xemacs`, `git config --global core.editor nano`.
 
 Mac users can use *TextEdit*: `git config --global core.editor 'open -W -n'`.
 
@@ -82,7 +82,7 @@ directory, we'll see a `.gitconfig` file,
 ~~~
 $ cat ~/.gitconfig
     [user] name = Your Name email = yourname@yourplace.org
-    [core] editor = nano
+    [core] editor = vim
 ~~~
 {: .language-bash}
 
@@ -141,7 +141,7 @@ Now, we'll create a file. Let's say we're going to write a journal paper, so
 we will start by adding the author names and a title, then save the file.
 
 ~~~
-$ nano journal.md						# Windows users: use notepad instead of nano (throughout this course)
+$ vim journal.md						# Windows users: use notepad instead of vim (throughout this course)
 # Add author names and paper title
 ~~~
 {: .language-bash}
@@ -224,7 +224,7 @@ we need to  **commit** it:
 ~~~
 $ git commit
 # Type a commit message: "Add title and authors"
-# Save the commit message and close your text editor (nano, notepad etc.)
+# Save the commit message and close your text editor (vim, notepad etc.)
 ~~~
 {: .language-bash}
 
@@ -266,7 +266,7 @@ Now we will work a bit further on our *journal.md* file by writing the introduct
 section.
 
 ```
-$ nano journal.md
+$ vim journal.md
 # Write introduction section
 ```
 {: .language-bash}
@@ -314,14 +314,14 @@ want to reuse:
 
 ~~~
 $ mkdir common
-$ nano common/references.txt					# Add a reference
+$ vim common/references.txt					# Add a reference
 ~~~
 {: .language-bash}
 
 We will also add a citation in our introduction section (in journal.md).
 
 ~~~
-$ nano journal.md 						# Use reference in introduction
+$ vim journal.md 						# Use reference in introduction
 ~~~
 {: .language-bash}
 

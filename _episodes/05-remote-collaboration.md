@@ -1,7 +1,7 @@
 ---
 title: "Collaborating with a remote repository"
 teaching: 20
-exercises:
+exercises: 0
 questions:
 - "How do I update my local repository with changes from the remote?"
 - "How can I collaborate using Git?"
@@ -67,7 +67,7 @@ figures section, commit the file and push these changes to GitHub:
 
 ```    
 $ cd papers 			# Switch to the 'papers' directory
-$ nano journal.md		# Add figures section
+$ vim journal.md		# Add figures section
 $ git add journal.md
 $ git commit -m "Add figures"
 $ git push
@@ -123,7 +123,7 @@ Next we will update our repo using `pull`, but this time starting in the *laptop
 should already be in the *laptop_papers* folder). Let's write the conclusions:
 
 ```    
-$ nano journal.md		# Write Conclusions
+$ vim journal.md		# Write Conclusions
 $ git add journal.md
 $ git commit -m "Write Conclusions" journal.md
 $ git push origin master
@@ -161,7 +161,7 @@ Add an affiliation for each author.
 Then push these changes to our remote repository:
 
 ```    
-$ nano journal.md		# Add author affiliations
+$ vim journal.md		# Add author affiliations
 $ git add journal.md
 $ git commit -m "Add author affiliations"
 $ git push origin master
@@ -176,7 +176,7 @@ because we haven't yet updated our local branch using `git pull`.
 
 ```    
 $ cd ../laptop_papers		# Switch directory to other copy of our repository
-$ nano journal.md		# Change order of the authors
+$ vim journal.md		# Change order of the authors
 $ git add journal.md
 $ git commit -m "Change the first author" journal.md
 $ git push origin master
@@ -227,13 +227,8 @@ we can see that our file is listed as *Unmerged* and if we look at
 *journal.md*, we see something like:
 
 ```
-<<<<<<< HEAD
-Author
-G Capes, J Smith
-=======
 author
 J Smith, G Capes
->>>>>>> 1b55fe7f23a6411f99bf573bfb287937ecb647fc
 ```
 
 The mark-up shows us the parts of the file causing the conflict and the
@@ -244,7 +239,7 @@ merging the branches.
 We edit the file. Then commit our changes. Now, if we *push* ...
 
 ```
-$ nano journal.md		# Edit file to resolve merge conflict
+$ vim journal.md		# Edit file to resolve merge conflict
 $ git add journal.md		# Stage the file
 $ git commit			# Commit to mark the conflict as resolved
 $ git push origin master
