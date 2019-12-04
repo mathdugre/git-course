@@ -1,7 +1,7 @@
 ---
 title: "Branching"
 teaching: 10
-exercises: 10
+exercises:
 questions:
 - "What is a branch?"
 - "How can I merge changes from another branch?"

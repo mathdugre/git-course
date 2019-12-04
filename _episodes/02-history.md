@@ -1,7 +1,7 @@
 ---
 title: "Looking at history and differences"
-teaching: 20
-exercises: 0
+teaching: 10
+exercises:
 questions:
 - "How does Git store information?"
 objectives:

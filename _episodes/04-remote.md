@@ -1,7 +1,7 @@
 ---
 title: "Getting started with GitHub"
-teaching: 25
-exercises: 0
+teaching: 15
+exercises:
 questions:
 - "What is a remote repository?"
 - "How can I use GitHub to work from multiple locations?"

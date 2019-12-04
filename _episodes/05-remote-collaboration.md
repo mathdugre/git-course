@@ -1,7 +1,7 @@
 ---
 title: "Collaborating with a remote repository"
-teaching: 25
-exercises: 15
+teaching: 20
+exercises:
 questions:
 - "How do I update my local repository with changes from the remote?"
 - "How can I collaborate using Git?"
