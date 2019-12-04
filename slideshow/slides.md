@@ -1,55 +1,18 @@
 ---
 title: 'Version control with Git and GitHub'
-author: 'Gerard Capes'
+author: 'Mathieu Dugré'
 ---
 
 # Version control with Git and GitHub
-1. Please sit near the front
-2. Open the notes at [http://gcapes.github.io/git-course/](http://gcapes.github.io/git-course/)
-3. Sign up for a [GitHub account](https://github.com/)
-4. Attendance is recorded using a [feedback form]; there is no sign-in sheet
-5. You can use Windows or Linux on the training PCs
-
-[feedback form]: https://goo.gl/forms/YZJ05PzX9tPFEtuV2
-
-# Research-related IT services
-- Described on [IT Services website](http://www.itservices.manchester.ac.uk/research/)
-- Announcements given via [Research IT News](https://researchitnews.org/)
-- [Training courses] teaching computing skills for Research
-- General guidance and advice about research software
-- Access to specialist support and consultancy e.g. code reviews
-- Access to HPC systems
-- [Full list of services on offer](http://www.itservices.manchester.ac.uk/our-services/research/)
-- For help and support, use the [Support Portal](http://www.itservices.manchester.ac.uk/help/)
-
-[Training courses]: http://www.staffnet.manchester.ac.uk/staff-learning-and-development/academicandresearch/practical-skills-and-knowledge/it-skills/research-computing/research-courses/
-
-# Housekeeping
-- Fire exit
-- Toilets
-- Course timing
-	- 09:30 -- 12:00 Morning session
-	- 12:00 -- 13:00 Lunch
-	- 13:00 -- 16:00 Afternoon session
-
-
-# Teaching methods
-- Interactive, workshop-style course
-	- Code along with the examples
-	- Test your understanding in the exercises
-- Course notes
-	- All examples and exercises are in the notes
-	- Slides will remain online after the course
+1. Open the notes at [https://mathdugre.me/git-course](https://mathdugre.me/git-course)
+2. Install git [https://mathdugre.me/git-course/setup](https://mathdugre.me/git-course/setup)
+3. Sign up for a [GitHub account](https://github.com)
 
 # Getting help
 - Sticky notes
 	- Used for getting help and giving real-time feedback
-	- Green: :), OK, ready to continue
-	- Red: :( (too fast, don't understand, computer says no etc)
+	- Stick on your laptop if too fast, don't understand, computer says no etc
 - Please interrupt me to ask questions
-- Peer learning
-	- During exercises, please help each other as required
-	- Please try to be quiet during worked examples so everyone can hear
 
 # What is a version control system?
 - Version control is a piece of software which allows you to record and preserve the history of changes made to directories and files.
@@ -107,14 +70,9 @@ which explains why the changes were made.
 - Backup
 - Collaboration
 
-# Before we get started
-- Example scenario
-- Text files vs binary files
-- Git vs GitHub
-
 # Open the notes
 
-## [https://gcapes.github.io/git-course](https://gcapes.github.io/git-course)
+## [https://mathdugre.me/git-course](https://mathdugre.me/git-course)
 
 ---
 
@@ -124,50 +82,9 @@ which explains why the changes were made.
 
 ---
 
-# The staging area
-![](../fig/git-staging-area.svg)
+# Make sure you have a GitHub account!
+
+# https://www.github.com
+![](../fig/github.png)
 
 ---
-
-## Checking out a previous commit: "detached HEAD"
-![](../fig/detached-head.svg)
-
----
-
-# Exercise 1
-## Create your own repo
-
-[http://gcapes.github.io/git-course/03-history](http://gcapes.github.io/git-course/03-history/#exercise-bio-repository)
-
----
-
-# Branches
-![](../fig/feature-branch.svg)
-
----
-
-# 3 Exercises on Branching
-[http://gcapes.github.io/git-course/05-branching/](http://gcapes.github.io/git-course/05-branching/#add-a-commit-to-detached-head)
-
----
-
-# Revert
-### Create a new commit
-
-![](../fig/git-revert.svg)
-
-# Reset
-### Delete commit(s)
-
-![](../fig/git-reset.svg)
-
-# Exercises on remote collaboration
-[https://gcapes.github.io/git-course/09-remote-collaboration](http://gcapes.github.io/git-course/09-remote-collaboration/#collaborating-on-a-remote-repository)
-
-&nbsp;
-
-## [Feedback form][feedback form] = attendance record
-
-
-# Merge vs rebase
-![](../fig/slideshow/forked-history.svg)
